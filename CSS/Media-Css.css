@@ -1,0 +1,58 @@
+@media only screen and (max-width:1676px) {
+    .DivChart2 {
+        width: 40%;
+    }
+    .DivChart1 {
+        width: 40%;
+    }
+    .aSideMKS {
+        width: 265px;
+    }
+}
+
+@media only screen and (max-width:1538px) {
+    .nav-hakim {
+        right: 40%;
+    }
+
+}
+
+@media only screen and (max-width:1163px) {
+    .nav-miflagot {
+        right: 23%;
+    }
+    .nav-hakim {
+        right: 40%;
+    }
+}
+@media only screen and (max-width:1020px) {
+    .DivChart2 {
+        width: 410px;
+    }
+    .DivChart1 {
+        width: 410px;
+    }
+    .nav-miflagot {
+        right: 25%;
+    }
+    .nav-hakim {
+        right: 50%;
+    }
+}
+
+@media only screen and (max-width:880px) {
+    .nav-hakim {
+        right: 50%;
+    }
+}
+@media only screen and (max-width:800px) {
+    .UlInfo {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width:729px) {
+    .nav-miflagot {
+        right: 25%;
+    }
+}

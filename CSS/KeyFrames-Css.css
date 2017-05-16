@@ -1,0 +1,35 @@
+@keyframes OpenSite {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes OpenSiteAdise {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.85;
+    }
+}
+
+@keyframes SlideFromBot {
+    0% {
+        margin-top: 100%;
+    }
+    100% {
+        margin-top: 50px;
+    }
+}
+
+@keyframes SlideFromTop {
+    0% {
+        margin-top: -100%;
+    }
+    100% {
+        margin-top: 50px;
+    }
+}

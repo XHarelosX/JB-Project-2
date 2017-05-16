@@ -1,0 +1,295 @@
+* {
+    direction: rtl;
+}
+
+
+/* Change the direction Website to "Right to Left */
+
+.body {
+    background-image: url("../Resources/backgroundBody.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+
+/* Body Background Img */
+
+.header {
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    width: 99.08%;
+    opacity: 1;
+    height: 100px;
+    background-color: midnightblue;
+    border: 1px solid darkblue;
+    animation: OpenSite 2s 1;
+}
+
+
+/* Css for Header Element */
+
+.kneset-logo {
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+}
+
+
+/* Css For Kneset Logo */
+
+.flag-logo {
+    height: 100px;
+    width: 153px;
+    border: 1px solid black;
+    border-top: none;
+    left: 50px;
+    position: absolute;
+}
+
+
+/* Css For Israel Flag Logo */
+
+.nav-miflagot {
+    display: inline-block;
+    border: 2px solid dimgray;
+    position: absolute;
+    color: DodgerBlue;
+    width: 150px;
+    height: 60px;
+    font-size: 50px;
+    top: 10px;
+    right: 20%;
+    padding-top: 18px;
+    text-align: center;
+    background-image: url("../Resources/miflagot.jpg");
+    background-size: 150px 80px;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+
+/* Css Class For מפלגות Element */
+
+.nav-miflagot:hover {
+    background-size: 160px 90px;
+    border: 2px solid white;
+    font-size: 54px;
+    cursor: pointer;
+}
+
+
+/* Css Class For מפלגות Element on Hover */
+
+.nav-hakim {
+    display: inline-block;
+    border: 2px solid dimgray;
+    position: absolute;
+    color: DodgerBlue;
+    width: 150px;
+    height: 60px;
+    font-size: 60px;
+    top: 10px;
+    right: 32%;
+    padding-top: 18px;
+    text-align: center;
+    background-image: url("../Resources/hakim.jpg");
+    background-size: 150px 80px;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+
+/* Css Class For ח"כים Element */
+
+.nav-hakim:hover {
+    border: 2px solid white;
+    font-size: 64px;
+    background-size: 160px 90px;
+    cursor: pointer;
+}
+
+
+/* Css Class For ח"כים Element on Hover */
+
+.hakim {
+    -webkit-text-stroke: 1px white;
+    font-family: 'nehamaregular';
+}
+
+
+/* Css class for ח"כים Span */
+
+.miflagot {
+    -webkit-text-stroke: 2px black;
+    font-family: 'nehamaregular';
+}
+
+
+/* Css class for מפלגות Span */
+
+.aSideMKS {
+    width: 15%;
+    height: 95%;
+    opacity: 0.8;
+    background-color: DodgerBlue;
+    border: 1px solid black;
+    animation: OpenSiteAdise 2s 1;
+}
+
+.aSideMKS:hover {
+    opacity: 1;
+}
+
+.Hakim-List {
+    float: right;
+    height: 96%;
+    width: 238px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    opacity: 0.8;
+    transition: all 1s;
+    padding: 0 20px 0 0;
+}
+
+.Hakim-List:hover {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+ul>li {
+    list-style-type: none;
+    height: 50px;
+    font-family: 'nehamaregular';
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.Section {
+    display: flex;
+    height: 95%;
+    padding-top: 101px;
+}
+
+.Div-Hak-Name {
+    text-decoration: underline;
+}
+
+.DivStars {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/* Starting Keyframes when the website open */
+
+#chartContainer {
+    display: inline;
+    position: relative;
+    border: 1px solid black;
+}
+
+.DivChart2 {
+    display: inline-block;
+    text-align: center;
+    flex: 1;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-right: 10px;
+    height: 75%;
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 3%;
+    opacity: 0.85;
+    animation:SlideFromBot 3s 1;
+}
+
+.DivChart2:hover {
+    opacity: 1;
+}
+
+.DivChart1 {
+    display: inline-block;
+    text-align: center;
+    flex: 1;
+    height: 75%;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 3%;
+    opacity: 0.85;
+    animation: SlideFromTop 3s 1;
+}
+
+.DivChart1:hover {
+    opacity: 1;
+}
+.icon-indent-decrease{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.HakInfo{
+   margin-right: 5px;
+    border: 2px solid black;
+    background-color: lightblue;
+    width: 100%;
+}
+.LiInfo{
+    font-family: 'nehamaregular';
+    font-size: 44px;
+    height: auto;
+    list-style-type: none;
+    text-decoration: underline;
+}
+.UlInfo{
+    margin-top: 0px;
+    padding-top: 10px;
+}
+.hakPic{
+    width: 130px;
+    height: 190px;
+    border: 1px solid black;
+}
+.spanVisible{
+     font-family: 'nehamaregular';
+    font-size: 44px;
+    visibility: hidden;
+    text-decoration: underline;
+}
+.Li2Visible{
+     font-family: 'nehamaregular';
+    font-size: 44px;
+    visibility: hidden;
+    list-style-type: none;
+    text-decoration: underline;
+}
+.spanFont{
+    font-family: 'nehamaregular';
+    font-size: 44px;
+    list-style-type: none;
+}
+.DivHakInfo{
+    height: 95%;
+    width: 90%;
+    overflow-x: auto;
+}
+.Li3Visible{
+     font-family: 'nehamaregular';
+    font-size: 44px;
+    visibility: hidden;
+    list-style-type: none;
+    text-decoration: underline;
+}
+.aInfo{
+    display:block;
+     font-family: 'nehamaregular';
+    font-size: 44px;
+}
+.LiInfoRole{
+    font-family: 'nehamaregular';
+    font-size: 44px;
+}
